@@ -1,25 +1,29 @@
-# _Profiles ETL Pipeline_
+# _Air Quality_
 
 #### By _**Drew White**_
 
-#### _ETL Pipeline processing Profiles in JSON format_
+#### _Processing of air quality data from two cities in China._
 
 ## Technologies Used
 
 - _Python_
+- _Pandas_
+- _Jupyter_
+- _Kaggle data sets_
 
 ## Description
 
- _ETL Pipeline processing `data/profiles2.json` in JSON format. Results with two separate JSON files:_
- - `data/profiles2_20221117_ok.json` (OK) 
- - `data/profiles2_20221117_reject.json` (Rejects)
+ _Data processing `data/PRSA_Data_Aotizhongxin_20130301-20170228.csv` and `data/PRSA_Data_Changping_20130301-20170228.csv`. Results with three separate csv files:_
+ - `data/aotizhongxin_processed.csv` (Air Quality Data from Aotizhongxin: Processed) 
+ - `data/changping_processed.csv` (Air Quality Data from Changping: Processed)
+ - `data/aotizhongxin_changping.csv` (Both of the above processed: Merged)
 
 
 ## Setup/Installation Requirements
 
 - _Must have Python 3.7 installed_
-- _Clone this with command `git clone https://github.com/Drewrwhite/profile_data.git`_
-- _Open `profile_data` folder_
+- _Clone this with command `git clone https://github.com/Drewrwhite/air_quality.git`_
+- _Open `air_quality` folder_
 
 
 ## Tests
